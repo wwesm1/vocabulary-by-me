@@ -1,0 +1,93 @@
+.search-container {
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 40px;
+  position: relative;
+
+  input {
+    width: 100%;
+    padding: 15px 25px;
+    background: $glass-bg;
+    border: 1px solid $glass-border;
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+
+    &:focus {
+      border-color: $primary-glow;
+      box-shadow: 0 0 20px rgba($primary-glow, 0.2);
+    }
+  }
+}
+
+.vocab-table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+
+  th {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    color: $primary-glow;
+    padding: 10px 25px;
+    text-align: left;
+  }
+
+  tbody tr {
+    background: $glass-bg;
+    backdrop-filter: blur(5px);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    td {
+      padding: 20px 25px;
+      border-top: 1px solid $glass-border;
+      border-bottom: 1px solid $glass-border;
+
+      &:first-child {
+        border-left: 1px solid $glass-border;
+        border-radius: 15px 0 0 15px;
+        color: $primary-glow;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+
+        &::before {
+          content: '';
+          width: 6px;
+          height: 6px;
+          background: $primary-glow;
+          border-radius: 50%;
+          margin-right: 15px;
+          box-shadow: 0 0 10px $primary-glow;
+        }
+      }
+
+      &:last-child {
+        border-right: 1px solid $glass-border;
+        border-radius: 0 15px 15px 0;
+        color: $text-dim;
+        font-style: italic;
+      }
+    }
+
+    &:hover {
+      transform: translateY(-5px) scale(1.01);
+      background: rgba(255, 255, 255, 0.07);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      
+      td:first-child {
+        color: #fff;
+        text-shadow: 0 0 15px $primary-glow;
+      }
+      
+      td:last-child {
+        color: #fff;
+      }
+    }
+  }
+}
