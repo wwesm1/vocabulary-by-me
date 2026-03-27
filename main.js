@@ -537,7 +537,7 @@ document.getElementById('vocabSearch').addEventListener('keyup', function () {
 
 // 1
 // const userText = (text) => {
-//     let result = ` `
+//     let result = ``
 //     for(let i = text.length-1; i >= 0; i--){
 //         result += text[i]
 //     }
@@ -549,7 +549,7 @@ document.getElementById('vocabSearch').addEventListener('keyup', function () {
 
 // 2
 // const sliceA = text => {
-//     let result = ` `
+//     let result = ``
 //     for(let i = 0; i <= text.length; i++){
 //         if(text.charAt(i) !== `a`){
 //         result += text.charAt(i)
@@ -563,7 +563,7 @@ document.getElementById('vocabSearch').addEventListener('keyup', function () {
 
 // 3
 // const onlyNumbers = text => {
-//     let result = ` `
+//     let result = ``
 //     for (let i = 0; i < text.length; i++) {
 //         if (Number(text.charAt(i))) {
 //             result += text.charAt(i)
@@ -577,24 +577,24 @@ document.getElementById('vocabSearch').addEventListener('keyup', function () {
 // console.log(output)
 
 // 4
-const onlyNumbers = text => {
-    let result = ` `
-    for (let i = 0; i < text.length; i++) {
-        if (Number(text.charAt(i))) {
-            result += text.charAt(i)
-            total = Number(text + text)
-        }
-    }
+// const onlyNumbers = text => {
+//     let total = 0
+//     for (let i = 0; i < text.length; i++) {
+//         let n = Number(text.charAt(i))
+//         if (!isNaN(n)) {
+//             total += n
+//         }
+//     }
 
-    return result
-}
+//     return total
+// }
 
-const output = onlyNumbers(`abs345qw543e`)
-console.log(output)
+// const output = onlyNumbers(`abs345qw543e`)
+// console.log(output)
 
 // 5
 // const firstLetter = text => {
-//     let result = ` `
+//     let result = ``
 //     for(let i = 0; i <= text.length; i++){
 //         if(text.upperCase(charAt(0))){
 //             return text
@@ -604,3 +604,4 @@ console.log(output)
 
 // const output = firstLetter(`hello`)
 // console.log(output)
+
