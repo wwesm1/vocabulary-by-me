@@ -642,3 +642,18 @@ document.getElementById('vocabSearch').addEventListener('keyup', function () {
 
 // const output = splitWords(`hello world`)
 // console.log(output)
+
+// 9
+// const biggerWord = text => {
+//     const word = text.split(` `)
+//     let longest = ``
+//     for(i = 0; i < word.length; i++){
+//         if(word[i].length > longest.length){
+//             longest = word[i]
+//         }
+//     }
+//     return longest;
+// }
+
+// const output = biggerWord(`hello, bye, JavaScript`)
+// console.log(output)
