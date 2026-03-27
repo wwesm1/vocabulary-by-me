@@ -605,3 +605,28 @@ document.getElementById('vocabSearch').addEventListener('keyup', function () {
 // const output = firstLetter(`hello`)
 // console.log(output)
 
+// 6
+// const numberOfSpace = text => {
+//     let result = 0
+//     for (let i = 0; i <= text.length; i++) {
+//         if (text[i] === ` `) {
+//             result++
+//         }
+//     }
+//     return result;
+// }
+
+// const output = numberOfSpace(`good morning to everyone`)
+// console.log(output)
+
+// 7
+// const isPalidron = text => {
+//     let a = text.split(``).reverse().join(``);
+//     if(text === a){
+//         console.log(true)
+//     }else{
+//         console.log(false)
+//     }
+// }
+
+// const output = isPalidron(`madam`)
