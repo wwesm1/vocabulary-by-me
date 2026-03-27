@@ -670,5 +670,21 @@ document.getElementById('vocabSearch').addEventListener('keyup', function () {
 //     return result;
 // }
 
-// const output = countWords(`hello word fuck`)
+// const output = countWords(`hello world`)
+// console.log(output)
+
+// 11
+// const countCharacter = text => {
+//     let result = {}
+//     for(i = 0; i < text.length; i++){
+//         let char = text[i]
+//         if(result[char]){
+//             result[char]++
+//         }else{
+//             result[char] = 1
+//         }
+//     }
+//     return result;
+// }
+// const output = countCharacter(`aaafbbgbcc`)
 // console.log(output)
