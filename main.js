@@ -688,3 +688,17 @@ document.getElementById('vocabSearch').addEventListener('keyup', function () {
 // }
 // const output = countCharacter(`aaafbbgbcc`)
 // console.log(output)
+
+// 12
+// const replaceLetter = text => {
+//     let result =  ``
+//     for(i = 0; i < text.length; i++){
+//         let letter = text[i]
+//         if(letter === `a`)
+//         result += text.replaceAll(`a`, `b`)
+//     }
+//     return result;
+// }
+
+// const output = replaceLetter(`abc`)
+// console.log(output)
