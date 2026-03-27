@@ -719,3 +719,13 @@
 
 // const output = wordsWithNumbers(`hello, world`)
 // console.log(output)
+
+// const repeatWords = text => {
+//     let result = ``
+//     for(let i = 0; i < text.length; i++){
+//         return text + text + text
+//     }
+// }
+
+// const output = repeatWords(`abc`)
+// console.log(output)
