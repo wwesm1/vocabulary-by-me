@@ -1,18 +1,20 @@
-document.getElementById('vocabSearch').addEventListener('keyup', function () {
-    let filter = this.value.toLowerCase();
-    let rows = document.querySelector('#myTable tbody').rows;
+// const { resumeToPipeableStream } = require("react-dom/server");
 
-    for (let i = 0; i < rows.length; i++) {
-        let firstCol = rows[i].cells[0].textContent.toLowerCase();
-        let secondCol = rows[i].cells[1].textContent.toLowerCase();
+// document.getElementById('vocabSearch').addEventListener('keyup', function () {
+//     let filter = this.value.toLowerCase();
+//     let rows = document.querySelector('#myTable tbody').rows;
 
-        if (firstCol.includes(filter) || secondCol.includes(filter)) {
-            rows[i].style.display = "";
-        } else {
-            rows[i].style.display = "none";
-        }
-    }
-});
+//     for (let i = 0; i < rows.length; i++) {
+//         let firstCol = rows[i].cells[0].textContent.toLowerCase();
+//         let secondCol = rows[i].cells[1].textContent.toLowerCase();
+
+//         if (firstCol.includes(filter) || secondCol.includes(filter)) {
+//             rows[i].style.display = "";
+//         } else {
+//             rows[i].style.display = "none";
+//         }
+//     }
+// });
 
 //BMI ni aniqlash va taqqoslash
 // let AthamWeight = prompt("Atham og'irligingizni kiriting")
@@ -701,4 +703,19 @@ document.getElementById('vocabSearch').addEventListener('keyup', function () {
 // }
 
 // const output = replaceLetter(`abc`)
+// console.log(output)
+
+// 13
+// const wordsWithNumbers = text => {
+//     const word = text.split(` `)
+//     let result = ``
+//     for(let i = 0; i < word.length; i++){
+//         if(word[i] !== ``){
+//             result += `${i + 1}. ${word[i]}`
+//         }
+//     }
+//     return result;
+// }
+
+// const output = wordsWithNumbers(`hello, world`)
 // console.log(output)
