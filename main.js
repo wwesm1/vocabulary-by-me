@@ -630,3 +630,15 @@ document.getElementById('vocabSearch').addEventListener('keyup', function () {
 // }
 
 // const output = isPalidron(`madam`)
+
+// 8
+// const splitWords = text => {
+//     result = ` `
+//     for (i = 0; i < text.length; i++) {
+//         result = text.split(` `)
+//     }
+//     return result
+// }
+
+// const output = splitWords(`hello world`)
+// console.log(output)
