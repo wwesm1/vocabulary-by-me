@@ -657,3 +657,18 @@ document.getElementById('vocabSearch').addEventListener('keyup', function () {
 
 // const output = biggerWord(`hello, bye, JavaScript`)
 // console.log(output)
+
+// 10
+// const countWords = text => {
+//     const word = text.split(` `)
+//     let result = 0
+//     for(i = 0; i < word.length; i ++){
+//         if(text[i] !== ` `){
+//             result++
+//         }
+//     }
+//     return result;
+// }
+
+// const output = countWords(`hello word fuck`)
+// console.log(output)
