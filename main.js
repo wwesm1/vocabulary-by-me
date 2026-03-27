@@ -636,7 +636,7 @@
 // 8
 // const splitWords = text => {
 //     result = ` `
-//     for (i = 0; i < text.length; i++) {
+//     for (let i = 0; i < text.length; i++) {
 //         result = text.split(` `)
 //     }
 //     return result
@@ -649,7 +649,7 @@
 // const biggerWord = text => {
 //     const word = text.split(` `)
 //     let longest = ``
-//     for(i = 0; i < word.length; i++){
+//     for(let i = 0; i < word.length; i++){
 //         if(word[i].length > longest.length){
 //             longest = word[i]
 //         }
@@ -664,7 +664,7 @@
 // const countWords = text => {
 //     const word = text.split(` `)
 //     let result = 0
-//     for(i = 0; i < word.length; i ++){
+//     for(let i = 0; i < word.length; i ++){
 //         if(text[i] !== ` `){
 //             result++
 //         }
@@ -678,7 +678,7 @@
 // 11
 // const countCharacter = text => {
 //     let result = {}
-//     for(i = 0; i < text.length; i++){
+//     for(let i = 0; i < text.length; i++){
 //         let char = text[i]
 //         if(result[char]){
 //             result[char]++
@@ -694,7 +694,7 @@
 // 12
 // const replaceLetter = text => {
 //     let result =  ``
-//     for(i = 0; i < text.length; i++){
+//     for(let i = 0; i < text.length; i++){
 //         let letter = text[i]
 //         if(letter === `a`)
 //         result += text.replaceAll(`a`, `b`)
