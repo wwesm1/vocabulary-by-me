@@ -720,6 +720,7 @@
 // const output = wordsWithNumbers(`hello, world`)
 // console.log(output)
 
+// 14
 // const repeatWords = text => {
 //     let result = ``
 //     for(let i = 0; i < text.length; i++){
@@ -729,3 +730,51 @@
 
 // const output = repeatWords(`abc`)
 // console.log(output)
+
+
+// Array
+
+// Array.prototype.custolength = function () {
+//     let count = 0
+//     for (let i = 0; i < this.length; i++) {
+//         count++
+//     }
+//     return count
+// }
+
+// let firstArray = [`hello`, 3, false, `key`, 0]
+// console.log(firstArray)
+
+
+// let secondArray = Array(`book`, true, 7, `something`)
+// secondArray[6] = `Article`
+// console.log(secondArray.custolength())
+
+
+// let arr = [`banana`, true, null, `bye`]
+// arr.push(8)
+// console.log(arr)
+
+// let arr = [`hello`, 5, `okay`]
+// arr.pop()
+// console.log(arr)
+
+// let arr = [`thank you`, `js`, undefined]
+// arr.unshift(true)
+// console.log(arr)
+// arr.shift()
+// console.log(arr)
+
+
+// console.log(Array.isArray([`yaoi`]))
+// console.log(Array.isArray(`hello`))
+
+// let arr = [`writing`, `listening`, `speaking`, `writing`]
+// console.log(arr.at(1))
+
+// console.log(Array.of(`writing`))
+
+// let numbers = [1,2,3,4]
+// let words = [`hell`, `heaven`, `demon`, `angel`]
+// let mixed = numbers.concat(words)
+// console.log(mixed)
