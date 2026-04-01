@@ -778,3 +778,27 @@
 // let words = [`hell`, `heaven`, `demon`, `angel`]
 // let mixed = numbers.concat(words)
 // console.log(mixed)
+
+// const singleElementArray = Array.of(5)
+// console.log(singleElementArray)
+
+// const single_element_array = Array(5)
+// console.log(single_element_array)
+
+// let fruits = [`apple`, `banana`, `cherry`]
+// let vegetables = [`cucumber`, `carrot`, `garlic`]
+// let mixed = [fruits, vegetables]
+// console.log(mixed[1][2])
+
+// let numbers = [1, 2, 3]
+// let result = numbers.concat(4, 5, 6)
+// console.log(result)
+
+// let fruits = [`banana`, `orange`, `kiwi`, `apple`, `pineapple`]
+// let sliceFruits = fruits.slice(0,2)
+// console.log(sliceFruits)
+
+// let fruits = [`banana`, `orange`, `kiwi`, `apple`, `pineapple`]
+// console.log(fruits.includes(`orange`))
+// console.log(fruits.includes(`cucumber`))
+
