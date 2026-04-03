@@ -802,3 +802,55 @@
 // console.log(fruits.includes(`orange`))
 // console.log(fruits.includes(`cucumber`))
 
+// let numbers = [10, 20, 30, 40, 50]
+// console.log(numbers.includes(30, 2))
+// console.log(numbers.includes(10, 2))
+
+// let numbers = [4, 9, 16, 25]
+// let found = numbers.find((num, index, array) => {
+//     console.log(`Tekshiralayotgan qiymat: ${num}, indeks: ${index}`)
+// })
+
+// console.log(found)
+
+// let numbers = [10, 20, 30]
+// let sum = 0
+
+// numbers.forEach((num) => {
+//     sum += num
+// })
+
+// console.log(sum)
+
+// let numbers = [1, 2, 3, 4, 5]
+// let doubled = numbers.map(num => num * 2)
+// console.log(doubled)
+
+
+// let numbers = [1, 2, 3, 4, 5, 6]
+// let evenNumbers = numbers.filter(num => num % 2 === 0)
+// console.log(evenNumbers)
+
+// Yangi mahsulot nomini qo'shish
+// let products = [`non`, `sut`, `chips`, `go'sht`, `shokolad`]
+// let addProduct = products.push(`kartoshka`)
+// console.log(products)
+
+// Arrayni ohiridan element olib tashlash
+// let arr = [`nothing`, `something`, `anything`, `everything`]
+// let delEnd = arr.pop()
+// console.log(arr)
+
+// Yangi qiymat qo'shish
+// let arr = [`the weeknd`, `lana del rey`, `bruno mars`, `lady gaga`, `billie eilish`]
+// arr.push(`eminem`, `justin beiber`)
+// console.log(arr)
+
+// Ohirgi sanani o'chirish
+// let array = date => {
+//     for (let i = 0; i < 30; i++) {
+//         deleteEnd = date[i] - 1
+//     }
+//     return deleteEnd
+// }
+// let output = array(1)
