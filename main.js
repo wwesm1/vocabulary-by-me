@@ -855,31 +855,41 @@
 // }
 // let output = array(1)
 
-let products = [
-    {
-        product: `Non`,
-        productPrice: 5000 
-    },
-    {
-        product: `Go'sht`,
-        productPrice: 120000,
-    },
-    {
-        product: `Banan`,
-        productPrice: 12000,
-    },
-    {
-        product: `Shokolad`,
-        productPrice: 14000
-    },
-    {
-        product: `Kofe`,
-        productPrice: 50000
-    }
-]
 
-products.forEach((productDiscount)=> {
-    let discount = productDiscount.productPrice * 0.10
-    let finalPrice = productDiscount.productPrice - discount
-    console.log(`Mahsulot nomi: ${productDiscount.product}\nMahsulotning haqiqiy narxi: ${productDiscount.productPrice}\nSiz uchun chegirma: ${discount}\nTo'lov: ${finalPrice}`)
-}) 
+
+// let products = [
+//     {
+//         product: `Non`,
+//         productPrice: 5000 
+//     },
+//     {
+//         product: `Go'sht`,
+//         productPrice: 120000,
+//     },
+//     {
+//         product: `Banan`,
+//         productPrice: 12000,
+//     },
+//     {
+//         product: `Shokolad`,
+//         productPrice: 14000
+//     },
+//     {
+//         product: `Kofe`,
+//         productPrice: 50000
+//     }
+// ]
+
+// products.forEach((productDiscount)=> {
+//     let discount = productDiscount.productPrice * 0.10
+//     let finalPrice = productDiscount.productPrice - discount
+//     console.log(`Mahsulot nomi: ${productDiscount.product}\nMahsulotning haqiqiy narxi: ${productDiscount.productPrice}\nSiz uchun chegirma: ${discount}\nTo'lov: ${finalPrice}`)
+// }) 
+
+
+// let passenger = [
+//     {
+//         countOfPassegner: 60,
+        
+//     }
+// ]
