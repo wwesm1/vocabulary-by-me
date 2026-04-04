@@ -855,8 +855,45 @@
 // }
 // let output = array(1)
 
+// let products = [
+//     {
+//         product: `Non`,
+//         productPrice: 5000,
+//         productAmount: 50
+//     },
+//     {
+//         product: `Go'sht`,
+//         productPrice: 120000,
+//         productAmount: 5
+//     },
+//     {
+//         product: `Banan`,
+//         productPrice: 12000,
+//         productAmount: 10
+//     },
+//     {
+//         product: `Shokolad`,
+//         productPrice: 14000,
+//         productAmount: 30
+//     },
+//     {
+//         product: `Kofe`,
+//         productPrice: 50000,
+//         productAmount: 30
+//     }
+// ]
+
+// let productTotalProfit = 0
+// products.forEach((total) =>{
+//     let productTotalAmount = total.productPrice * total.productAmount
+//     productTotalProfit += total.productPrice * productTotalAmount
+//     console.log(`Mahsulot: ${total.product}\nUmimiy qiymati: ${productTotalAmount} so'm`)
+// })
 
 
+// console.log(`Dukonning umumiy qiymati: ${productTotalProfit} so'm`)
+
+     
 // let products = [
 //     {
 //         product: `Non`,
