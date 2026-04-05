@@ -882,18 +882,68 @@
 //         productAmount: 30
 //     }
 // ]
-
 // let productTotalProfit = 0
 // products.forEach((total) =>{
 //     let productTotalAmount = total.productPrice * total.productAmount
 //     productTotalProfit += total.productPrice * productTotalAmount
 //     console.log(`Mahsulot: ${total.product}\nUmimiy qiymati: ${productTotalAmount} so'm`)
 // })
-
-
 // console.log(`Dukonning umumiy qiymati: ${productTotalProfit} so'm`)
 
-     
+
+
+
+// let students = [
+//     {
+//         studentName: `Intizor`,
+//         studentGrade: [67, 79, 88, 23]
+//     },
+//     {
+//         studentName: `Charos`,
+//         studentGrade: [67, 75, 44, 99]
+//     },
+//     {
+//         studentName: `Muhriddin`,
+//         studentGrade: [52, 88, 100, 100]
+//     },
+//     {
+//         studentName: `Asila`,
+//         studentGrade: [56, 12, 22, 9]
+//     },
+//     {
+//         studentName: `Akmal`,
+//         studentGrade: [45, 54, 67, 88]
+//     }
+// ]
+// let newArray = students.map((student) => {
+//     let something = 0
+//     let someStudent = student.studentGrade
+
+//     someStudent.forEach((grade) => {
+//         something += grade
+//     })
+
+//     let average = something / someStudent.length
+
+//     return {studentName: student.studentName, studentAverage: average}
+// })
+
+// console.log(newArray)
+
+// let winner = newArray[0]
+
+// newArray.forEach((student) => {
+//     if(winner.studentAverage < student.studentAverage){
+//         winner = student
+//     }
+// })
+// console.log(`O'rtacha bahosi eng yuqori student: ${winner.studentName}`)
+
+
+
+
+
+
 // let products = [
 //     {
 //         product: `Non`,
@@ -916,7 +966,6 @@
 //         productPrice: 50000
 //     }
 // ]
-
 // products.forEach((productDiscount)=> {
 //     let discount = productDiscount.productPrice * 0.10
 //     let finalPrice = productDiscount.productPrice - discount
@@ -924,9 +973,62 @@
 // }) 
 
 
+
+
+
+
 // let passenger = [
 //     {
 //         countOfPassegner: 60,
-        
+//         peopleLeft: 
 //     }
 // ]
+
+
+
+
+// let customer = [
+//     {
+//         product: `Non`,
+//         productPrice: 5000,
+//         productAmount: 5
+//     },
+//     {
+//         product: `Go'sht`,
+//         productPrice: 120000,
+//         productAmount: 1
+//     },
+//     {
+//         product: `Banan`,
+//         productPrice: 12000,
+//         productAmount: 7
+//     },
+//     {
+//         product: `Shokolad`,
+//         productPrice: 14000,
+//         productAmount: 2
+//     },
+//     {
+//         product: `Kofe`,
+//         productPrice: 50000,
+//         productAmount: 2
+//     }
+// ]
+
+// productTotalPrice = 0
+
+// customer.forEach((products) => {
+//     let productAmountPrice = products.productPrice * products.productAmount
+//     productTotalPrice += products.productAmount * productAmountPrice
+// })
+
+// console.log(`Sizning mahsulotlaringizning hammasi: ${productTotalPrice} so'm bo'ldi`)
+
+// let personalMoney = prompt(`To'lovni amalaga oshiring`)
+
+// if(personalMoney < 20000){
+//     console.log(`Siz faqatgina ${customer[0].product} olaolasiz`)
+// }
+
+
+let 
