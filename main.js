@@ -855,6 +855,8 @@
 // }
 // let output = array(1)
 
+
+// 1
 // let products = [
 //     {
 //         product: `Non`,
@@ -882,17 +884,19 @@
 //         productAmount: 30
 //     }
 // ]
+
 // let productTotalProfit = 0
 // products.forEach((total) =>{
 //     let productTotalAmount = total.productPrice * total.productAmount
 //     productTotalProfit += total.productPrice * productTotalAmount
 //     console.log(`Mahsulot: ${total.product}\nUmimiy qiymati: ${productTotalAmount} so'm`)
 // })
+
 // console.log(`Dukonning umumiy qiymati: ${productTotalProfit} so'm`)
 
 
 
-
+// 2
 // let students = [
 //     {
 //         studentName: `Intizor`,
@@ -943,7 +947,7 @@
 
 
 
-
+// 3
 // let products = [
 //     {
 //         product: `Non`,
@@ -976,17 +980,48 @@
 
 
 
-
-// let passenger = [
+// 4
+// let passengers = [
 //     {
-//         countOfPassegner: 60,
-//         peopleLeft: 
+//         off: 10,
+//         on: 12
+//     },
+//     {
+//         off: 5,
+//         on: 7
+//     },
+//     {
+//         off: 7,
+//         on: 15
+//     },
+//     {
+//         off: 8,
+//         on: 20
+//     },
+//     {
+//         off: 16,
+//         on: 0
+//     },
+//     {
+//         off: 4,
+//         on: 20
 //     }
 // ]
 
+// i = 0
+// let numberOfPassangers = 0
+
+// passengers.forEach((passenger) => {
+//     i++
+//     numberOfPassangers += passenger.on
+//     numberOfPassangers -= passenger.off
+//     console.log(`${i}-bekatda ${passenger.on}ta yo'lovchi chiqdi va ${passenger.off}ta tushdi`)
+// })
+
+// console.log(`Avtobusda umumiy ${numberOfPassangers}ta yo'lovchi qoldi`)
 
 
-
+// 5
 // let customer = [
 //     {
 //         product: `Non`,
@@ -1031,4 +1066,85 @@
 // }
 
 
-let 
+
+
+
+// 7
+// let salary = [
+//     {
+//         workerName: `Ismat`,
+//         workerSalary: 25600000 
+//     },
+//     {
+//         workerName: `Farhod`,
+//         workerSalary: 1013000
+//     },
+//     {
+//         workerName: `Salima`,
+//         workerSalary: 3030000
+//     },
+//     {
+//         workerName: `Asror`,
+//         workerSalary: 1200000
+//     },
+//     {
+//         workerName: `Shohrux`,
+//         workerSalary: 530100
+//     }
+// ]
+
+// let amountMoney = 0
+// salary.forEach((amount) => {
+//     amountMoney += amount.workerSalary
+//     console.log(`${amount.workerName}ning oylik maoshi: ${amount.workerSalary}`)
+// })
+// console.log(`Kompaniya hodimlari uchun har oy ${amountMoney} to'laydi`)
+
+
+
+
+
+// 8
+// let cinema = [
+//     {
+//         seans: 100000
+//     },
+//     {
+//         seans: 231005
+//     },
+//     {
+//         seans: 3024402
+//     },
+//     {
+//         seans: 693025,
+//     },
+//     {
+//         seans: 97949,
+//     },
+//     {
+//         seans: 78403
+//     }
+// ]
+
+// i = 0
+// let seansMoney = 0
+// cinema.forEach((money) => {
+//     i ++
+//     seansMoney += money.seans
+//     console.log(`${i}-seansdan tushgan pul: ${money.seans}`)
+// })
+
+// console.log(`Umumiy daromad: ${seansMoney}`)
+
+
+something = {
+    name: `Hulkar`,
+    surname: `Normurodova`,
+    age: 16,
+    birthyear: 2009
+}
+
+// console.log(Object.keys(something))
+// console.log(Object.values(something))
+// console.log(Object.entries(something))
+console.log()
