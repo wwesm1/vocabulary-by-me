@@ -1137,14 +1137,45 @@
 // console.log(`Umumiy daromad: ${seansMoney}`)
 
 
-something = {
-    name: `Hulkar`,
-    surname: `Normurodova`,
-    age: 16,
-    birthyear: 2009
-}
+// user = {
+//     name: `Hulkar`,
+//     surname: `Normurodova`,
+//     age: 16,
+//     birthyear: 2009,
+//     nationality: `uzbek`,
+    
+//     greet() {
+//         console.log(`Hello! My name is ${this.name}. My surname is ${this.surname}. I'm ${this.age} years old. I was born in ${this.birthyear}. I'm ${this.nationality}`)
+//     }
+// }
+// user.greet()
+// this b
 
-// console.log(Object.keys(something))
-// console.log(Object.values(something))
-// console.log(Object.entries(something))
-console.log()
+// Object.keys obyektni keylarini chiqaradi
+// console.log(Object.keys(user))
+
+// Object.value obyektni qiymatlarini chiqaradi
+// console.log(Object.values(user))
+
+// Object.entries ichgima ichgi array chiqaradi
+// console.log(Object.entries(user))
+
+// Object.assign obyektning key va value larini uzini chiqaradi
+// console.log(Object.assign(user))
+
+// Object.freeze mutlaqo o'zgarmas qiladi
+// console.log(Object.freeze(user))
+
+// Object.seal freeze bilan deyarli birxil lekn qiymatlarni o'zgartirish mumkin
+// console.log(Object.seal(user))
+
+// Object.fromEntries juftliklar arrayi → obyektga aylantiradi
+// console.log(Object.fromEntries([[`Name`, `Hulkar`], [`Surname`, `Normurodova`]]))
+
+// Object.hasOwnProperty obyektda property bor yoki yugligini tekshiradi va true yoki false qaytaradi
+// console.log(user.hasOwnProperty(`age`))
+// console.log(user.hasOwnProperty(`father`))
+
+// Object.is ikki qiymatni aniq (strict) tarzda solishtirish uchun ishlatiladi
+// console.log(Object.is(9, 10))
+// console.log(Object.is(false, false))
