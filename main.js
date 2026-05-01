@@ -1143,7 +1143,7 @@
 //     age: 16,
 //     birthyear: 2009,
 //     nationality: `uzbek`,
-    
+
 //     greet() {
 //         console.log(`Hello! My name is ${this.name}. My surname is ${this.surname}. I'm ${this.age} years old. I was born in ${this.birthyear}. I'm ${this.nationality}`)
 //     }
@@ -1179,3 +1179,72 @@
 // Object.is ikki qiymatni aniq (strict) tarzda solishtirish uchun ishlatiladi
 // console.log(Object.is(9, 10))
 // console.log(Object.is(false, false))
+
+
+// let changeOne = document.getElementById(`vocab1`)
+// changeOne.textContent = `Hello`
+
+// let changeTwo = document.getElementsByClassName(`vocab2`)
+// console.log(changeTwo.textContent = `No way`)
+
+// let changeThree = document.getElementsByTagName(`td`)
+// console.log(changeThree.innerHTML = `What`)
+
+// let changeFour = document.querySelector(`body .tr .td`)
+// console.log(changeFour.textContent = `hellu`)
+
+// function total(first, second, third) {
+//     return first + second - third;
+// }
+
+// console.log(total(10, 43, 22))
+
+// const spreadOp = function () {
+//     const arr = {
+//         name: "Hulkar",
+//         age: 17
+//     }
+
+//     console.log(arr)
+//     return {
+//         ...arr,
+//         name: "Charos",
+//         age: 15,
+//         country: "Uzbekistan"
+//     }
+// }
+
+// console.log(spreadOp())
+
+// function num(...numbers){
+//     return numbers.reduce((numberOne, numberTwo) => {
+//         return numberOne * numberTwo
+//     })
+// }
+
+// console.log(num(12, 2, 2))
+
+// const totalPrice = price => {
+//     return price.reduce((total, current) => {
+//         if(current > 500){
+//             return total + current
+//         }
+//     })
+// }
+
+// console.log(totalPrice())
+
+// Length qo'lda yasash
+// const arr = [false, 0, NaN, undefined, 56, `Salom`]
+
+// Array.prototype.myLength = function(){
+//     let count = 0
+//     for(const item of this){
+//         count ++
+//     }
+//     console.log(count)
+// }
+
+// arr.myLength()
+// console.log(arr.length)
+
