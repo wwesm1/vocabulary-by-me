@@ -1260,19 +1260,75 @@
 
 // console.log(car)
 
-function letterToNumber(str) {
-  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  let result = 0;
+// function letterToNumber(str) {
+//   const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//   let result = 0;
 
-  str = str.toUpperCase();
+//   str = str.toUpperCase();
 
-  for (let i = 0; i < str.length; i++) {
-    for (let j = 0; j < alphabet.length; j++) {
-      if (str[i] === alphabet[j]) {
-        result = result * 26 + (j + 1);
-      }
-    }
-  }
+//   for (let i = 0; i < str.length; i++) {
+//     for (let j = 0; j < alphabet.length; j++) {
+//       if (str[i] === alphabet[j]) {
+//         result = result * 26 + (j + 1);
+//       }
+//     }
+//   }
 
-  return result;
+//   return result;
+// } 
+
+// const Car = function (make, speed) {
+//   this.make = make
+//   this.speed = speed
+// }
+
+// Car.prototype.accelerate = function () {
+//   this.speed += 10
+//   console.log(`${this.make} is going at ${this.speed} km/h`)
+// }
+
+// Car.prototype.brake = function () {
+//   this.speed -= 5
+//   console.log(`${this.make} is going at ${this.speed} km/h`)
+// }
+
+// const car1 = new Car('BMW', 120)
+// const car2 = new Car('Mercedes', 95)
+
+// car1.accelerate() 
+// car1.brake()     
+
+// car2.accelerate()   
+// car2.brake()     
+
+// class Car {
+//   constructor(make, speed){
+//     this.make = make
+//     this.speed = speed
+//   }
+
+//   accelerate(){
+//     this.speed += 10
+//     console.log(`${this.make} is going at ${this.speed} km/h`)
+//   }
+
+//   brake(){
+//     this.speed -= 10
+//     console.log(`${this.make} is going at ${this.speed} km/h`)
+//   }
+// }
+
+// const car1 = new Car(`BMW`, 100)
+// const car2 = new Car(`BYD`, 200)
+
+// car1.accelerate()
+// car1.brake()
+// car1.accelerate()
+
+// car2.accelerate()
+// car2.brake()
+// car2.accelerate()
+
+class Smartphone {
+  
 }
