@@ -1248,3 +1248,31 @@
 // arr.myLength()
 // console.log(arr.length)
 
+// const Car = function (make, speed) {
+//   this.make = make;
+//   this.speed = speed;
+// };
+
+// Car.prototype.accelerate = function () {
+//   this.speed += 10;
+//   console.log(`${this.make} is going at ${this.speed} km/h`);
+// };
+
+// console.log(car)
+
+function letterToNumber(str) {
+  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  let result = 0;
+
+  str = str.toUpperCase();
+
+  for (let i = 0; i < str.length; i++) {
+    for (let j = 0; j < alphabet.length; j++) {
+      if (str[i] === alphabet[j]) {
+        result = result * 26 + (j + 1);
+      }
+    }
+  }
+
+  return result;
+}
