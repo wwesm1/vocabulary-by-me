@@ -1329,6 +1329,4 @@
 // car2.brake()
 // car2.accelerate()
 
-class Smartphone {
-  
-}
+user
