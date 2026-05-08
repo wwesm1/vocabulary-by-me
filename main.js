@@ -1385,3 +1385,37 @@
 
 // studentOne.isPassed()
 // studentTwo.isPassed()
+
+
+// let users = [
+//   { name: "Ali", age: 17 },
+//   { name: "Sara", age: 22 },
+//   { name: "John", age: 15 },
+//   { name: "Emma", age: 30 }
+// ];
+
+// let onlyMature = users.filter(mature => mature.age > 18)
+// console.log(onlyMature)
+// let onlyName = users.map(studentName => studentName.name)
+// console.log(onlyName)
+// let onlyOne = users.find(oneStudent => oneStudent.name === `Emma`)
+// console.log(onlyOne)
+
+
+
+// let nums = [5, 10, 15];
+
+// let total = 0
+
+// for(let i = 0; i < nums.length; i++){
+//   total += nums[i]
+// }
+// console.log(total)
+
+// let total = nums.reduce((accumulator, current) => {
+//   return accumulator + current
+// }, 0)
+
+// console.log(total)
+
+
