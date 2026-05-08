@@ -1419,3 +1419,15 @@
 // console.log(total)
 
 
+// let products = [
+//   { name: "Laptop", price: 1000, inStock: true },
+//   { name: "Phone", price: 500, inStock: false },
+//   { name: "Tablet", price: 700, inStock: true }
+// ];
+
+// let stock = products.filter(ifStock => ifStock.inStock === true)
+// let total = stock.reduce((accumulator, current) => {
+//   return accumulator + current.price
+// }, 0)
+
+// console.log(total)
