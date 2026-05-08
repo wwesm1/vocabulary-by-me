@@ -1329,4 +1329,59 @@
 // car2.brake()
 // car2.accelerate()
 
-user
+// class Animal {
+//   constructor(name, color){
+//     this.name = name
+//     this.color = color
+//   }
+
+//   speak(){
+//     console.log(`${this.name} ovoz chiqardi`)
+//   }
+// }
+
+// const catOne = new Animal(`Mushuk`, `qora`)
+// const catTwo = new Animal(`It`, `oq`)
+
+// catOne.speak()
+// catTwo.speak()
+
+
+// class Phone {
+//   constructor(brand, model, price){
+//     this.brand = brand
+//     this.model = model
+//     this.price = price
+//   }
+
+//   getInfo() {
+//     console.log(`${this.brand} ${this.model} - ${this.price}`)
+//   }
+// }
+
+// const phoneOne = new Phone(`iPhone`, `15`, `1200$`)
+// const phoneTwo = new Phone(`Samsung`, `A56`, `500$`)
+
+// phoneOne.getInfo()
+// phoneTwo.getInfo()
+
+// class Student{
+//   constructor(name, ball){
+//     this.name = name
+//     this.ball = ball
+//   }
+
+//   isPassed(){
+//     if(this.ball > 60){
+//       console.log(`Imtihondan o'tdi`)
+//     }else{
+//       console.log(`Yiqildi`)
+//     }
+//   }
+// }
+
+// const studentOne = new Student(`Javohir`, 45)
+// const studentTwo = new Student(`Akbarshoh`, 80)
+
+// studentOne.isPassed()
+// studentTwo.isPassed()
