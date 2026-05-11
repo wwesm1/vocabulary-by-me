@@ -1431,3 +1431,21 @@
 // }, 0)
 
 // console.log(total)
+
+// function greet(name) {
+//   console.log(`Hello, ${name}`)
+// }
+
+// function processUser(callback) {
+//   callback(`Ali`)
+// }
+
+// processUser(greet);
+
+const car = {
+  brand: "Toyota",
+  year: 2020
+};
+
+const {brand, year} = car
+console.log(year)
