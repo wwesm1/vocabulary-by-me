@@ -1442,10 +1442,15 @@
 
 // processUser(greet);
 
-const car = {
-  brand: "Toyota",
-  year: 2020
-};
 
-const {brand, year} = car
-console.log(year)
+const student = {
+  name: "John",
+  grades: {
+    math: 90,
+    english: 85
+  }
+}
+
+const {name, grades:{math}} = student
+
+console.log(name, math)
