@@ -1443,14 +1443,33 @@
 // processUser(greet);
 
 
-const student = {
-  name: "John",
-  grades: {
-    math: 90,
-    english: 85
-  }
-}
+// const student = {
+//   name: "John",
+//   grades: {
+//     math: 90,
+//     english: 85
+//   }
+// }
 
-const {name, grades:{math}} = student
+// const {name, grades:{math}} = student
 
-console.log(name, math)
+// console.log(name, math)
+
+// const nums = [10, 20, 30]
+// const updated = [...nums, 40]
+// console.log(updated)
+
+// const frontend = ["HTML", "CSS"];
+// const backend = ["Node.js", "MongoDB"];
+// const merge = [...frontend, ...backend]
+// console.log(merge)
+
+// const user = {
+//   name: "Sara",
+//   age: 22
+// };
+// const student = {
+//   ...user,
+//   isStudent: true
+// }
+// console.log(student)
